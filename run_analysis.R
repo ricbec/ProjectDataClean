@@ -43,3 +43,5 @@ odata <- arrange(data.melt, subject.id)
 gdata <- group_by(odata, subject.id, activity.name, variable, add = TRUE)
 ##SUMMARIZING DATA
 sum <- summarise(gdata, mean(value))
+##OUTPUT THE DATA
+write.table(sum, file = "tidy_data.txt", row.names = FALSE)
