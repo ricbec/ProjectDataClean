@@ -1,5 +1,5 @@
 
-#Project for Coursera Getting ad Cleaning Data 
+#Project for Coursera Getting and Cleaning Data 
 
 
 The goal for this project is to produce a tidy dataset showing the analysis of the mean for the variables grouped into subjects and activities of the subjects.
