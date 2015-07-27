@@ -1,0 +1,19 @@
+CODE BOOK
+
+The variables in the tidy_data.txt are
+
+
+
+subject.id
+: 1-30 id for each subject 
+
+
+activity.name
+: Names for the six activities
+
+
+variable
+: Names of the features observed in the dataset
+set
+
+mean(value): The mean for each group of feature for each activity for each subject
