@@ -1,6 +1,6 @@
-# ProjectDataClean Code Book
-# 
-Project for Coursera Getting ad Cleaning Data
+
+#Project for Coursera Getting ad Cleaning Data 
+
 
 The goal for this project is to produce a tidy dataset showing the analysis of the mean for the variables grouped into subjects and activities of the subjects.
 
@@ -28,18 +28,7 @@ The seccond goal ws to extract the mean and standart deviation. For this task I 
 
 To be able to apply the summarize function I melt all the variable columns into the data.melt. It was ordered and grouped and finaly summarized into the sum variable. This was output to tidy_data.txt file using the write.table function.
 
-The variables in the tidy_data.txt are
-
-subject.id
-    1-30 id for each subject 
-
-activity.name
-    Names for the six activities
-
-variable
-    Each of the mean and sdt features extracted from the data set
-
-mean(value)
+In this repository you will find the run_analysis.R script, and a codebook.md explaining the variables of the output.
     The mean for each group of feature for each activity for each subject
 
 
