@@ -31,15 +31,15 @@ To be able to apply the summarize function I melt all the variable columns into 
 The variables in the tidy_data.txt are
 
 subject.id
-1-30 Represent the ID for each subject 
+    1-30 id for each subject 
 
 activity.name
-Names for the six activities
+    Names for the six activities
 
 variable
-Each of the mean and sdt features extracted from the data set
+    Each of the mean and sdt features extracted from the data set
 
 mean(value)
-The mean for each group of feature for each activity for each subject
+    The mean for each group of feature for each activity for each subject
 
 
