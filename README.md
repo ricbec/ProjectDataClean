@@ -14,7 +14,7 @@ https://class.coursera.org/getdata-030/forum/thread?thread_id=37
 
 I used to libraries dplyr and rechape2, to be able to use the functions, merge, melt, select, and arrange. 
 
-I started with the test group.
+Started with the test group.
 
 After reading the data combined the data of the subjects, the type of activity, and the data frame with the meassures into one data frame called combined.test
 
@@ -28,7 +28,7 @@ The seccond goal ws to extract the mean and standart deviation. For this task I 
 
 To be able to apply the summarize function I melt all the variable columns into the data.melt. It was ordered and grouped and finaly summarized into the sum variable. This was output to tidy_data.txt file using the write.table function.
 
-The variables in the tidy_data.tx are
+The variables in the tidy_data.txt are
 
 subject.id
 1-30 Represent the ID for each subject 
